@@ -3,6 +3,7 @@ import { render } from '@testing-library/react';
 import Calculator from '../components/Calculator';
 
 describe('Calculator', () => {
+  <h2>Simple Calculator</h2>
   it('should contain the expected text', () => {
     render(<Calculator />);
 
